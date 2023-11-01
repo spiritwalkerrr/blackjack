@@ -258,6 +258,7 @@ public class Spiel {
 				for (Spieler spieler : spielerListe) {
 					spieler.leereHand();
 					spieler.setHatGesplittet(false);
+					spieler.setHatDoubleDownGemacht(false);
 				}
 				// checken, ob spieler noch genug geld haben
 				for (Spieler spieler : spielerListe) {
